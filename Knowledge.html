@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Portifolio
+    </title>
+    <link rel="icon" href="icones/foguete.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="estilos_CSS/estilo.css">
+    <script src="JavaScript/app.js"></script>
+
+</head>
+
+<body onload="createStar()">
+    <div class="stars-container"></div>
+    <header class="header">
+        <nav class="navbar navbar-expand-md text-light navbar-light sticky-top">
+            <!--Logo -->
+            <h1 class="ml-5"><a href="index.html" class=" nav-link">&lt;Coder&gt;</a></h1>
+            <!--botão toggler -->
+            <button class="navbar-toggler navbar-toggler-custom" data-toggle="collapse" data-target="#navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Navegação -->
+            <div class="collapse navbar-collapse mr-5" id="navegacao">
+                <ul class="navbar-nav ml-auto text-uppercase">
+                    <li class="nav-item mr-5">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a href="Projects.html" class="nav-link ">Projects</a>
+                    </li>
+                    <li class="nav-item mr-5">
+                        <a href="Knowledge.html" class="nav-link">Knowledge</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="text-custom-blue text-center mt-5">
+        <h1>Knowledge</h1>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 mx-auto mb-5">
+                            <div class="card1 text-white position-relative p-2">
+                                <img class="card-img img-fluid zoom-imgg" src="icones/javascript.png">
+                                <div class="mt-2 text-center">
+                                    <h4 class="card-title text-responsive mb-5 align-self-start text-custom-3">
+                                        JavaScript</h4>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 mx-auto mb-5">
+                            <div class="card1 text-white position-relative p-2">
+                                <img class="card-img img-fluid zoom-imgg" src="icones/html.png">
+                                <div class="mt-2 text-center">
+                                    <h4 class="card-title text-responsive mb-5 align-self-start text-custom-3">HTML5
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 mx-auto mb-5">
+                            <div class="card1 text-white position-relative p-2">
+                                <img class="card-img img-fluid zoom-imgg" src="icones/css.png">
+                                <div class="mt-2 text-center">
+                                    <h4 class="card-title text-responsive mb-5 align-self-start text-custom-3">CSS3</h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Segundo conteúdo carousel-->
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 mx-auto mb-5">
+                            <div class="card1 text-white position-relative p-2">
+                                <img class="card-img img-fluid zoom-imgg" src="icones/bootstrap.png">
+                                <div class="mt-2 text-center">
+                                    <h4 class="card-title text-responsive mb-5 align-self-start text-custom-3">Bootstrap
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 mx-auto mb-5">
+                            <div class="card1 text-white position-relative p-2">
+                                <img class="card-img img-fluid zoom-imgg" src="icones/git.png">
+                                <div class="mt-2 text-center">
+                                    <h4 class="card-title text-responsive mb-5 align-self-start text-custom-3">Git</h4>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 mx-auto mb-5">
+                            <div class="card1 text-white position-relative p-2">
+                                <img class="card-img img-fluid zoom-imgg" src="icones/mysql.png">
+                                <div class="mt-2 text-center">
+                                    <h4 class="card-title text-responsive mb-5 align-self-start text-custom-3">MYSQL
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Terceiro conteúdo carousel-->
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12 mx-auto mb-5">
+                            <div class="card1 text-white position-relative p-2">
+                                <img class="card-img img-fluid zoom-imgg" src="icones/github (2).png">
+                                <div class="mt-2 text-center">
+                                    <h4 class="card-title text-responsive mb-5 align-self-start text-custom-3">GitHub
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 mx-auto mb-5">
+                            <div class="card1 text-white position-relative p-2">
+                                <img class="card-img img-fluid zoom-imgg" src="icones/node-js.png">
+                                <div class="mt-2 text-center">
+                                    <h4 class="card-title text-responsive mb-5 align-self-start text-custom-3">Node-JS
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 mx-auto mb-5">
+                            <div class="card1 text-white position-relative p-2">
+                                <img class="card-img img-fluid zoom-imgg" src="icones/jquery.png">
+                                <div class="mt-2 text-center">
+                                    <h4 class="card-title text-responsive mb-5 align-self-start text-custom-3">jQuery
+                                    </h4>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <div class="gif-container">
+            <img src="icones/saturn-v-space (1).gif" class="gif-image">
+        </div>
+    </div>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/draggable/1.0.0-beta.11/draggable.bundle.legacy.min.js"></script>
+    <script src="https://kit.fontawesome.com/a90b0b431c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
